@@ -9,7 +9,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 yfinance = "^0.2.36"
+pandas-datareader = "^0.10.0"
+loguru = "^0.7.2"
+matplotlib = "^3.8.3"
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.2"
+black = "^24.2.0"
 
 [build-system]
 requires = ["poetry-core"]
